@@ -7,21 +7,18 @@ ESP32_Team_Task_2/
 ├── Theoretical_Assignment/
 │   ├── Theoretical_Assignment.docx
 ├── Task_1_Bar_Graph/
-│   ├── Code/
-│   │   ├── bar_graph.ino
-│   │   └── README.md
-│   ├── Circuit_Schematic/
-│   │   └── bar_graph_schematic.fzz
-│   └── TinkerCAD_Simulation/
-│       └── bar_graph_simulation.tinkercad
-├── Task_2_Smart_Lock/
-│   ├── Code/
-│   │   ├── smart_lock.ino
-│   │   └── README.md
-│   ├── Circuit_Schematic/
-│   │   └── smart_lock_schematic.fzz
-│   └── TinkerCAD_Simulation/
-│       └── smart_lock_simulation.tinkercad
+│   ├── Task_1_Bar_Graph
+|   | Bar graph report.docx
+|   |Bar_Graph.cpp
+|   |Bar_Graph_Simulation.mp4
+|   |Circuit_Diagram.png
+|   |Demo_Video.mp4
+├── Task_2_Smart_Lock/  
+Circuit_Diagram.png
+Demo_Video.mp4
+Smart_Lock.cpp
+Smart_Lock_Report.docx
+Smart_Lock_Simulation.mp4
 └── README.md
 Theoretical Assignment
 1. Comparison of Digital and Analog Signals
@@ -51,15 +48,15 @@ Bar Graph Display: The LEDs light up sequentially based on ambient light levels 
 User Interaction: The push button allows the user to control an LED as part of the system.
 
 Bonus: Simulation and Schematic
-TinkerCAD Simulation: The project is simulated in TinkerCAD to visualize how the system works.
+TinkerCAD Simulation: The project is simulated in TinkerCAD to visualize how the system works avaialable as a video (Smart_Lock_Simulation.mp4)
 
 Fritzing Circuit Schematic: A circuit schematic is provided to show how the components are connected.
 
 Code
-The Arduino code for the ESP32 is located in the Code folder (bar_graph.cpp).
+The Arduino code for the ESP32 is located in the Code folder (Bar_Graph.cpp).
 
 Circuit Schematic
-The circuit schematic for Task 1 is available in Fritzing format (bar_graph_schematic.fzz).
+The circuit schematic for Task 1 is available as (Circuit_Diagram.png).
 
 Task 2: Smart Lock System
 Overview
@@ -73,12 +70,12 @@ IR Sensor: Detects the presence of a person and triggers the servo motor to open
 Automatic Closing: The door closes automatically after a specified time if no person is detected.
 
 Bonus: Simulation and Schematic
-TinkerCAD Simulation: The project is simulated in TinkerCAD to ensure proper functionality.
+TinkerCAD Simulation: The project is simulated in TinkerCAD to ensure proper functionality available as a video (Bar_Graph_Simulation.mp4)
 
-Fritzing Circuit Schematic: The schematic diagram of the Smart Lock system is available in Fritzing format (smart_lock_schematic.fzz).
+Fritzing Circuit Schematic: The schematic diagram of the Smart Lock system is available as (Circuit_Diagram).
 
 Code
-The Arduino code for the Smart Lock system is located in the Code folder (smart_lock.ino).
+The Arduino code for the Smart Lock system is located in the Code folder (Smart_Lock.cpp).
 
 Circuit Schematic
-The circuit schematic for Task 2 is available in Fritzing format (smart_lock_schematic.fzz).
+The circuit schematic for Task 2 is available in Fritzing format (Circuit_Diagram.png).
